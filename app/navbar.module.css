@@ -1,0 +1,59 @@
+.navbar {
+    width: 100%;
+    padding: 0.25rem;
+    position: fixed;
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    z-index: 10000;
+}
+
+.wordlogo {
+    color: white;
+    left: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu {
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.menu > div {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    border: 1px solid cyan;
+    box-shadow: 0px 0px 0.5rem cyan;
+    border-radius: 2rem;
+    transition: border-color 0.3s ease;
+    align-items: center;
+    justify-content: center
+}
+
+.menu > div:hover {
+    background-color: #64f0ff;
+    color: black;
+    border-color: #64f0ff;
+    box-shadow: 0 0 1em #64f0ff;
+}

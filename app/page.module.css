@@ -9,9 +9,6 @@
 }
 
 .description {
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
     font-size: 0.85rem;
     max-width: var(--max-width);
     width: 100%;
@@ -33,16 +30,6 @@
     background-color: rgba(var(--callout-rgb), 0.5);
     border: 1px solid rgba(var(--callout-border-rgb), 0.3);
     border-radius: var(--border-radius);
-}
-
-.navbar {
-    width: 100%;
-    padding: 0.25rem;
-    position: fixed;
-    display: flex;
-    color: white;
-    background-color: white;
-    align-items: center;
 }
 
 .code {
@@ -116,35 +103,6 @@
     transform: translateZ(0);
 }
 
-.wordlogo {
-    left: 1rem;
-    font-size: 2rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    cursor: pointer;
-}
-
-.menu {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-right: 0;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: black;
-    right: 1rem;
-    cursor: pointer;
-}
-
-.menu > div {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    cursor: pointer;
-}
-
 .logo {
     position: relative;
 }
@@ -152,7 +110,6 @@
 .charactersImage {
     position: relative;
 }
-
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -255,10 +212,6 @@
 @media (prefers-color-scheme: dark) {
     .vercelLogo {
         filter: invert(1);
-    }
-
-    .wordlogo {
-        filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
     }
 
     .logo {

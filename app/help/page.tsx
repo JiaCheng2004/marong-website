@@ -1,3 +1,10 @@
+import Navbar from '../navbar'
+import styles from './page.module.css'
+
 export default function Help() {
-    return (<h1>Hello, help page!</h1>);
+    return (
+        <main className={styles.main}>
+            <Navbar></Navbar>
+        </main>
+    );
 }

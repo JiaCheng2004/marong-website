@@ -1,3 +1,10 @@
+import Navbar from '../navbar'
+import styles from './page.module.css'
+
 export default function SignUp() {
-    return (<h1>Hello, SignUp page!</h1>);
+    return (
+        <main className={styles.main}>
+            <Navbar></Navbar>
+        </main>
+    );
 }
