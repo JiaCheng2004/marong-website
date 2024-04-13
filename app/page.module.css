@@ -107,9 +107,61 @@
     position: relative;
 }
 
-.charactersImage {
+.mainDisplay {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: fadeInUp 2s ease forwards;
+    bottom: 20%; 
+    pointer-events: none;
 }
+
+.charactersImage {
+  z-index: 1;
+}
+
+.mainDisplayFont {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.35) 0%,rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    text-indent: 25px;
+    position: absolute;
+    font-size: 100px;
+    top: 3rem;
+    color: transparent;
+    background-clip: text;
+    width: 100%;
+    letter-spacing: 25px;
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+    justify-content: center;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUFaster {
+    0% {
+      opacity: 0;
+      transform: translateY(125%);
+    }
+    100% {
+      
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

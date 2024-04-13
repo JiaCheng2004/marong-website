@@ -4,7 +4,7 @@
     position: fixed;
     display: flex;
     color: white;
-    background-color: black;
+    background-color: transparent;
     align-items: center;
     z-index: 10000;
 }
@@ -42,9 +42,10 @@
     margin-right: 0.5rem;
     cursor: pointer;
     text-align: center;
+    text-indent: 0.5rem;
     position: relative;
     border: 1px solid cyan;
-    box-shadow: 0px 0px 0.5rem cyan;
+    box-shadow: 0px 0px 0.4rem cyan;
     border-radius: 2rem;
     transition: border-color 0.3s ease;
     align-items: center;
@@ -55,5 +56,5 @@
     background-color: #64f0ff;
     color: black;
     border-color: #64f0ff;
-    box-shadow: 0 0 1em #64f0ff;
+    box-shadow: 0 0 4em #64f0ff;
 }
