@@ -1,8 +1,36 @@
 .main {
-    min-height: 50vh;
-    background-color: grey;
+    width: 100%;
+    padding: 2rem 2rem;
+    background-color: transparent;
+    color: white;
 }
 
-.main > br {
-    color: grey;
+.footerInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.footerInfo > div {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.socialMedias {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedias > div {
+    padding: 2rem 1rem;
+    background-color: transparent;
+}
+
+.socialMedias > div:hover {
+    box-shadow: 0 0 10px cyan;
+}
+
+@media (prefers-color-scheme: dark) {
+    .icon {
+        filter: invert(1);
+    }
 }

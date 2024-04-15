@@ -6,9 +6,10 @@ import Footer from './footer';
 
 export default function Home() {
 
-    return (
+    return (<>
+
+        <Navbar></Navbar>
         <main className={styles.main}>
-            <Navbar></Navbar>
             <div className={styles.center}>
                 <div className={styles.mainDisplay}>
                     <div className={styles.mainDisplayFont}>AIMS ESPORTS</div>
@@ -22,8 +23,8 @@ export default function Home() {
                     />
                 </div>
             </div>
-    
-            <Footer></Footer>
         </main>
-    );
+        <Footer></Footer>
+        
+    </>);
 }
