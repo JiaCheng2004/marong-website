@@ -5,6 +5,10 @@
     color: white;
 }
 
+.br {
+    background-color: white;
+}
+
 .footerInfo {
     display: flex;
     justify-content: center;
@@ -23,10 +27,6 @@
 .socialMedias > div {
     padding: 2rem 1rem;
     background-color: transparent;
-}
-
-.socialMedias > div:hover {
-    box-shadow: 0 0 10px cyan;
 }
 
 @media (prefers-color-scheme: dark) {

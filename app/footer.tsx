@@ -43,7 +43,7 @@ const Footer = () => {
                         <Image
                             className={style.icon}
                             src="/assets/social-media-icons/discord.png"
-                            alt=""
+                            alt="discord icon"
                             width={35}
                             height={35}
                             priority
@@ -53,7 +53,7 @@ const Footer = () => {
                         <Image
                             className={style.icon}
                             src="/assets/social-media-icons/instagram.png"
-                            alt=""
+                            alt="instagram icon"
                             width={35}
                             height={35}
                             priority
@@ -62,8 +62,8 @@ const Footer = () => {
                     <div className={style.douyin}>
                         <Image
                             className={style.icon}
-                            src="/assets/social-media-icons/tik-tok.png"
-                            alt=""
+                            src="/assets/social-media-icons/douyin.png"
+                            alt="douyin icon"
                             width={35}
                             height={35}
                             priority
@@ -73,7 +73,7 @@ const Footer = () => {
                         <Image
                             className={style.icon}
                             src="/assets/social-media-icons/youtube.png"
-                            alt=""
+                            alt="youtube icon"
                             width={35}
                             height={35}
                             priority
@@ -83,7 +83,7 @@ const Footer = () => {
                         <Image
                             className={style.icon}
                             src="/assets/social-media-icons/marong.png"
-                            alt=""
+                            alt="marong icon"
                             width={35}
                             height={35}
                             priority
