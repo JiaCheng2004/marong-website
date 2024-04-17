@@ -44,8 +44,8 @@
     text-align: center;
     text-indent: 0.5rem;
     position: relative;
-    border: 1px solid cyan;
-    box-shadow: 0px 0px 0.4rem cyan;
+    border: 1px solid #64f0ff;
+    box-shadow: 0px 0px 0.4rem #64f0ff;
     border-radius: 2rem;
     transition: border-color 0.3s ease;
     align-items: center;
