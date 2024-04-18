@@ -1,0 +1,33 @@
+.main {
+    background-color: grey;
+}
+
+.navbar {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    z-index: 10;
+}
+
+.previousParent {
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.previous {
+    z-index: 20;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #b8f0ff;
+    transition: transform 0.5 ease;
+}
+
+.previous:hover {
+    z-index: 20;
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px #b8f0ff;
+}

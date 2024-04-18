@@ -8,49 +8,52 @@
     padding: 2rem 2rem;
     background-color: transparent;
     color: grey;
-    box-shadow: 0 0 5px 2px #b8f0ff;
+    box-shadow: 0 0 5px 2px #72ABFF;
     transition: box-shadow 0.5s ease-in-out;
 }
 
 .main:hover {
-    box-shadow: 0 0 75px #b8f0ff;
+    box-shadow: 0 0 75px #72ABFF;
     .verticalBar {
-        border-left: 5px solid #b8f0ff;
+        border-left: 5px solid #72ABFF;
     }
 }
 
-.footerlink {
-    margin: 5px;
-    transition: font-size 0.25s ease-in-out;
-}
-
-.footerlink:hover {
-    cursor: pointer;
-    color: white;
-    font-size: larger;
-    text-shadow: 0 0 0 white;
-    text-decoration: underline;
-    text-decoration-color: cyan;
-}
-
 .footerInfo {
-    display: flex;
-    align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 .footerlinks {
-    font-size: 15px;
     display: flex;
 }
 
-.footerlinks > div {
-    padding: 3rem;
-    text-shadow: 0 0 1px white;
+.footerlink {
+    margin-top: 4px;
+    text-shadow: 0 0 1px #b8f0ff;
+    transition: font-size 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    transition: font-size 0.3s ease-in-out;
 }
 
+.footerlink:hover {
+    font-size: larger;
+    color: white;
+    text-shadow: 0 0 2px #b8f0ff;
+    text-decoration: underline;
+    text-decoration-color: #72ABFF;
+}
+
+.footercol {
+    text-align: center;
+    margin: 1rem;
+    width: 150px;
+    overflow: auto;
+}
+
+
 .logo {
-    padding: 3rem;
+    margin: 3rem;
     font-size: 40px;
     font-family: glitched;
     color: grey;
@@ -79,7 +82,7 @@
 }
 
 .verticalBar {
-    height: 10rem;
+    height: inherit;
     display: flex;
     justify-content: center;
     border-left: 2px solid black;

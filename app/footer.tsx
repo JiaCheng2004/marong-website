@@ -34,8 +34,8 @@ const Footer = () => {
                             <div className={style.footerlink}><Link href="/">Event 5</Link></div>
                         </div>
                         <div className={style.footercol}>
-                            <div className={style.footerlink}><Link href="/">Submitting a Ticket</Link></div>
-                            <div className={style.footerlink}><Link href="/">Users Customizations</Link></div>
+                            <div className={style.footerlink}><Link href="/">Tickets</Link></div>
+                            <div className={style.footerlink}><Link href="/">Users</Link></div>
                             <div className={style.footerlink}><Link href="/">Forum FAQs</Link></div>
                             <div className={style.footerlink}><Link href="/">marong</Link></div>
                         </div>

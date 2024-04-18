@@ -19,23 +19,23 @@ const Navbar = () => {
         </div>
 
         <div className={styles.menu}>
-            <div>
+            <div className={styles.menuitem}>
                 <Link href="/help">Help</Link>
             </div>
-            <div>
+            <div className={styles.menuitem}>
                 <Link href="/marong">marong</Link>
             </div>
             {( true ) ? (
                 <>
-                <div>
+                <div className={styles.menuitem}>
                     <Link href="/signup">SignUp</Link>
                 </div>
-                <div>
+                <div className={styles.menuitem}>
                     <Link href="/signin">SignIn</Link>
                 </div>
                 </>
             ) : (
-            <div onClick={handleDropdownClick}>
+            <div className={styles.menuitem} onClick={handleDropdownClick}>
                 <Image
                     className={styles.userProfile}
                     src="/user.png"
