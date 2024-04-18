@@ -15,31 +15,34 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className={style.verticalBar}></div>
+
                     <div className={style.footerlinks}>
                         <div className={style.footercol}>
-                            <div className={style.footerlink}>Question A</div>
-                            <div className={style.footerlink}>Question B</div>
-                            <div className={style.footerlink}>Question C</div>
-                            <div className={style.footerlink}>Question D</div>
-                            <div className={style.footerlink}>Question E</div>
+                            <div className={style.footerlink}><Link href="/">Question A</Link></div>
+                            <div className={style.footerlink}><Link href="/">Question B</Link></div>
+                            <div className={style.footerlink}><Link href="/">Question C</Link></div>
+                            <div className={style.footerlink}><Link href="/">Question D</Link></div>
+                            <div className={style.footerlink}><Link href="/">Question E</Link></div>
                         </div>
                         <div className={style.footercol}>
-                            <div className={style.footerlink}>Event A</div>
-                            <div className={style.footerlink}>Event B</div>
-                            <div className={style.footerlink}>Event C</div>
-                            <div className={style.footerlink}>Event D</div>
-                            <div className={style.footerlink}>Event E</div>
+                            <div className={style.footerlink}><Link href="/">Event 1</Link></div>
+                            <div className={style.footerlink}><Link href="/">Event 2</Link></div>
+                            <div className={style.footerlink}><Link href="/">Event 3</Link></div>
+                            <div className={style.footerlink}><Link href="/">Event 4</Link></div>
+                            <div className={style.footerlink}><Link href="/">Event 5</Link></div>
                         </div>
                         <div className={style.footercol}>
-                            <div className={style.footerlink}>Submitting a Ticket</div>
-                            <div className={style.footerlink}>Users Customizations</div>
-                            <div className={style.footerlink}>Forum FAQs</div>
-                            <div className={style.footerlink}>marong</div>
+                            <div className={style.footerlink}><Link href="/">Submitting a Ticket</Link></div>
+                            <div className={style.footerlink}><Link href="/">Users Customizations</Link></div>
+                            <div className={style.footerlink}><Link href="/">Forum FAQs</Link></div>
+                            <div className={style.footerlink}><Link href="/">marong</Link></div>
                         </div>
                         <div className={style.footercol}>
-                            <div className={style.footerlink}>Contact Us</div>
-                            <div className={style.footerlink}>About Us</div>
-                            <div className={style.footerlink}>Support Us</div>
+                            <div className={style.footerlink}><Link href="/">Contact Us</Link></div>
+                            <div className={style.footerlink}><Link href="/">About Us</Link></div>
+                            <div className={style.footerlink}><Link href="/">Support Us</Link></div>
                         </div>
                     </div>
                 </div>

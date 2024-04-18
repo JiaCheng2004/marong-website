@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'glitched';
+    src: url('/assets/fonts/GlitchGoblin-2O87v.ttf');
+}
+
 .navbar {
     width: 100%;
     padding: 0.5rem;
@@ -12,12 +17,20 @@
 .wordlogo {
     color: white;
     left: 1rem;
-    font-size: 2rem;
+    font-family: glitched;
+    font-size: 3rem;
     font-weight: 400;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    cursor: pointer;
+    transition: text-shadow 0.2s ease-in-out;
+}
+
+.wordlogo:hover {
+    color: #b8f0ff;
+    text-shadow: 0 0 10px #b8f0ff;
 }
 
 .menu {
@@ -44,8 +57,8 @@
     text-align: center;
     text-indent: 0.5rem;
     position: relative;
-    border: 1px solid #64f0ff;
-    box-shadow: 0px 0px 0.4rem #64f0ff;
+    border: 1px solid #b8f0ff;
+    box-shadow: 0px 0px 0.5rem #b8f0ff;
     border-radius: 2rem;
     transition: border-color 0.3s ease;
     align-items: center;
@@ -53,8 +66,8 @@
 }
 
 .menu > div:hover {
-    background-color: #64f0ff;
+    background-color: #82fffd;
     color: black;
-    border-color: #64f0ff;
-    box-shadow: 0 0 4em #64f0ff;
+    border-color: #82fffd;
+    box-shadow: 0 0 4em #82fffd;
 }

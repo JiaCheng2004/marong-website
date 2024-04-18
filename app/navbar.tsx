@@ -8,7 +8,7 @@ const Navbar = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
     const handleDropdownClick = () => {
-      setDropdownOpen(!dropdownOpen); // Toggle dropdown visibility
+        setDropdownOpen(!dropdownOpen);
     };
 
     return (
