@@ -24,6 +24,10 @@ export default function Home() {
                 </div>
             </div>
         </main>
+        
+        <div className={styles.unit}>
+            
+        </div>
         <Footer></Footer>
         
     </>);
