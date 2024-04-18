@@ -15,31 +15,31 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={style.footerlink}>
-                        <div className={style.popularQuestions}>
-                            <div className={style.question}>Question A</div>
-                            <div className={style.question}>Question B</div>
-                            <div className={style.question}>Question C</div>
-                            <div className={style.question}>Question D</div>
-                            <div className={style.question}>Question E</div>
+                    <div className={style.footerlinks}>
+                        <div className={style.footercol}>
+                            <div className={style.footerlink}>Question A</div>
+                            <div className={style.footerlink}>Question B</div>
+                            <div className={style.footerlink}>Question C</div>
+                            <div className={style.footerlink}>Question D</div>
+                            <div className={style.footerlink}>Question E</div>
                         </div>
-                        <div className={style.allevents}>
-                            <div className={style.events}>Event A</div>
-                            <div className={style.events}>Event B</div>
-                            <div className={style.events}>Event C</div>
-                            <div className={style.events}>Event D</div>
-                            <div className={style.events}>Event E</div>
+                        <div className={style.footercol}>
+                            <div className={style.footerlink}>Event A</div>
+                            <div className={style.footerlink}>Event B</div>
+                            <div className={style.footerlink}>Event C</div>
+                            <div className={style.footerlink}>Event D</div>
+                            <div className={style.footerlink}>Event E</div>
                         </div>
-                        <div className={style.services}>
-                            <div className={style.service}>Submitting a Ticket</div>
-                            <div className={style.service}>Users Customizations</div>
-                            <div className={style.service}>Forum FAQs</div>
-                            <div className={style.service}>marong</div>
+                        <div className={style.footercol}>
+                            <div className={style.footerlink}>Submitting a Ticket</div>
+                            <div className={style.footerlink}>Users Customizations</div>
+                            <div className={style.footerlink}>Forum FAQs</div>
+                            <div className={style.footerlink}>marong</div>
                         </div>
-                        <div className={style.infos}>
-                            <div className={style.info}>Contact Us</div>
-                            <div className={style.info}>About Us</div>
-                            <div className={style.info}>Support Us</div>
+                        <div className={style.footercol}>
+                            <div className={style.footerlink}>Contact Us</div>
+                            <div className={style.footerlink}>About Us</div>
+                            <div className={style.footerlink}>Support Us</div>
                         </div>
                     </div>
                 </div>

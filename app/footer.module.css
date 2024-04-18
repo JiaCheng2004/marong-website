@@ -1,26 +1,41 @@
 .main {
     width: 100%;
-    border-radius: 2rem;
     padding: 2rem 2rem;
     background-color: transparent;
     color: grey;
-    box-shadow: 0 0 0 0 #000;
     transition: box-shadow 0.5s ease-in-out;
+}
+
+.main:hover {
+    box-shadow: 0 0 50px #b8f0ff;
+}
+
+.footerlink {
+    margin: 5px;
+}
+
+.footerlink:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 0 0 white;
+    text-decoration: underline;
+    text-decoration-color: cyan;
 }
 
 .footerInfo {
     display: flex;
 }
 
-.footerlink {
+.footerlinks {
     font-size: 15px;
     margin-right: 0;
     margin-left: auto;
     display: flex;
 }
 
-.footerlink > div {
+.footerlinks > div {
     margin: 2rem;
+    text-shadow: 0 0 1px white;
 }
 
 .logo {
@@ -31,7 +46,8 @@
 }
 
 .logo:hover {
-    color: #64f0ff;
+    color: white;
+    text-shadow: 0 0 10px cyan;
 }
 
 .socialMedias {
@@ -55,6 +71,7 @@
 }
 
 .copyright {
+    font-size: smaller;
     display: flex;
     justify-content: center;
     color: inherit;
