@@ -1,0 +1,28 @@
+.main {
+    background-color: transparent;
+    width: 100%;
+    display: grid;
+}
+
+.manual {
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    grid-template-columns: 20% 80%;
+}
+
+.topics {
+    width: 20%;
+    background-color: transparent;
+    border: 1px solid #72ABFF;
+    box-shadow: inset 0px 0px 1rem #72ABFF;
+}
+
+.instructions {
+    height: inherit;
+    flex: 1;
+    border: 1px solid #72ABFF;
+    box-shadow: inset 0px 0px 1rem #72ABFF;
+}

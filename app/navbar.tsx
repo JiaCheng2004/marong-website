@@ -23,6 +23,9 @@ const Navbar = () => {
                 <Link href="/help">Help</Link>
             </div>
             <div className={styles.menuitem}>
+                <Link href="/event">Events</Link>
+            </div>
+            <div className={styles.menuitem}>
                 <Link href="/marong">marong</Link>
             </div>
             {( true ) ? (

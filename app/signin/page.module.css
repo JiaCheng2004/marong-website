@@ -1,5 +1,6 @@
 .main {
     background-color: grey;
+    display: grid;
 }
 
 .navbar {
