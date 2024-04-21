@@ -85,7 +85,7 @@
     height: inherit;
     display: flex;
     justify-content: center;
-    border-left: 2px solid black;
+    border-left: 2px solid transparent;
     border-radius: 1rem;
     transition: border-left 0.5s ease-in-out;
 }
