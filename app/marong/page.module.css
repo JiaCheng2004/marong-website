@@ -10,19 +10,45 @@
     width: 100%;
     background-color: transparent;
     display: flex;
-    grid-template-columns: 20% 80%;
 }
 
-.topics {
+.topicdiv {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-top: 5.5rem;
     width: 20%;
     background-color: transparent;
     border: 1px solid #72ABFF;
     box-shadow: inset 0px 0px 1rem #72ABFF;
+    display: flex;
+}
+
+.topics {
+    width: 95%;
+    background-color: transparent;
+    border: 1px solid #72ABFF;
+}
+
+.topicscrollbar {
+    width: 5%;
+    background-color: transparent;
+    border: 1px solid #72ABFF;
 }
 
 .instructions {
+    width: 80%;
+    right: 0;
     height: inherit;
     flex: 1;
     border: 1px solid #72ABFF;
     box-shadow: inset 0px 0px 1rem #72ABFF;
+}
+
+.content {
+    margin-top: 5.5rem;
+    width: 100%;
+    height: inherit;
+    background-color: transparent;
+    border: 1px solid #72ABFF;
 }
