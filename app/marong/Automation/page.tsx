@@ -42,7 +42,7 @@ export default function marong() {
                         <div className={styles.topic}>
                             <div className={styles.horizontalbar}></div>
                             Customization
-                            <a className={styles.smalltopic}>Personal Music Channel</a>
+                            <a className={styles.smalltopic}>Self Music Channel</a>
                             <a className={styles.smalltopic}>Customized Scrims</a>
                         </div>
                         <div className={styles.topic}>
@@ -50,7 +50,7 @@ export default function marong() {
                             Levels and XP
                             <a className={styles.smalltopic}>What is Levels and XP</a>
                             <a className={styles.smalltopic}>How to level up</a>
-                            <a className={styles.smalltopic}>Ways to gain XP</a>
+                            <a className={styles.smalltopic}>How to gain XP</a>
                         </div>
                     </div>
                     <div className={styles.topicscrollbar}>
