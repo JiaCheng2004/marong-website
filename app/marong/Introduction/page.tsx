@@ -59,16 +59,18 @@ export default function marong() {
                 <div className={styles.instructions}>
                     <div className={styles.content}>
                         <div className={styles.title}>
-                            <div className={styles.titlefont}>MARONG</div>
-                            <div className={styles.titledescription}>A Discord bot specially built for the AIMS ESPORTS community</div>
+                            <div className={styles.titlefont}>Introduction</div>
+                            <div className={styles.titledescription}>This is a music bot</div>
                         </div>
+
                         <div className={styles.section}>
                             <div className={styles.horizontalbar}></div>
-                            <div className={styles.sectiontitlefont}>Slash commands</div>
-                                <div className={styles.sectiontitledescription}>Description for marong's slash commands</div>
-                                <a className={styles.normal}>Instruction normal text for marong's slash commands</a>
-                            <div className={styles.horizontalbar}></div>
+                            <div className={styles.sectiontitlefont}>123</div>
+                            <div className={styles.sectiontitledescription}>321</div>
+                            <a className={styles.normal}>hello</a>
                         </div>
+                        
+                        
                     </div>
                 </div>
             </div>
