@@ -1,6 +1,6 @@
 'use client'
-import Navbar from '../navbar';
-import Footer from '../footer';
+import Navbar from '../../../navbar';
+import Footer from '../../../footer';
 import styles from './page.module.css';
 
 export default function marong() {
