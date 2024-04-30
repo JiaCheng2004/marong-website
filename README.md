@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AIMS ESPORTS Organization Website
 
-## Getting Started
+This project is a user-friendly, comprehensive website designed specifically for the AIMS ESPORTS Organization. It's built using the NextJS framework, providing a highly-functional platform which integrates various features to enhance the user experience.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **User Login System**: Users can create a personal account to customize and manage their experience.
+2. **Music Playlists**: Registered users can create, organize, and enjoy their personal music playlists.
+3. **Events Information**: Users can access detailed information and updates about upcoming ESports events.
+4. **Integrated with marong Discord bot**: This multi-featured Discord bot is a custom creation for AIMS ESPORTS. Registered users have the ability to interact, command, and fully utilize its functionalities.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Use marong Discord Bot
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Detailed documentation on how to use the "marong" Discord bot is available on the website. This includes commands, features and troubleshooting. Stay tuned for future updates and additional bot functionalities.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We recognize that the AIMS ESPORTS community thrives on continuous interaction and engagement, which is why we're excited to introduce marong as a powerful tool to support our platform.
 
-## Learn More
+## Setup and Installation
 
-To learn more about Next.js, take a look at the following resources:
+For setup and installation instructions, please refer to the documentation provided. We strongly recommend following the steps closely to ensure smooth implementation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to connect with our support for assistance, or to share any feedback you may have. Enjoy the AIMS ESPORTS experience!
