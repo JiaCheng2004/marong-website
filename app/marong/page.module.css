@@ -19,250 +19,257 @@
 }
 
 .main {
-    background-color: transparent;
-    width: 100%;
+	background-color: transparent;
+	width: 100%;
 }
 
 .manual {
-    display: absolute;
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-    background-color: transparent;
-    overflow: auto;
+	display: absolute;
+	min-height: 100vh;
+	height: auto;
+	width: 100%;
+	background-color: transparent;
+	overflow: auto;
 }
 
 .topicdiv {
-    background-color: transparent;
-    height: inherit;
-    font-family: Nunito;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    padding-top: 5.5rem;
-    width: 20%;
-    display: flex;
+	background-color: transparent;
+	height: inherit;
+	font-family: Nunito;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	padding-top: 5.5rem;
+	width: 20%;
+	display: flex;
 }
 
 .topics {
-    color: grey;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 95%;
-    background-color: transparent;
-    overflow-y: scroll;
+	color: grey;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 95%;
+	background-color: transparent;
+	overflow-y: scroll;
 }
 
 .topicscrollbar {
-    width: 5%;
-    background-color: transparent;
-    border: 1px solid #72ABFF;
+	width: 5%;
+	background-color: transparent;
+	border: 1px solid #72ABFF;
 }
 
 .topic {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 20px;
-    transition: color 0.3s ease-in-out;
-    cursor: pointer;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 20px;
+	transition: color 0.3s ease-in-out;
+	cursor: pointer;
 }
 
-.topic:active{
-    transform: scale(0.95);
-    transition: transform .1s;
+.topic:active {
+	transform: scale(0.95);
+	transition: transform .1s;
 }
 
-.topic:hover{
-    color: #72ABFF;
-    .horizontalbar {
-        border-top: 5px solid #72ABFF;
-    }
+.topic:hover {
+	color: #72ABFF;
+
+	.horizontalbar {
+		border-top: 5px solid #72ABFF;
+	}
 }
 
-.topic:hover > a{
-    color: white;
+.topic:hover>a {
+	color: white;
 }
 
-.topic > a {
-    padding: 0.15rem;
-    text-indent: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    transition: color 0.1s ease-in-out;
+.topic>a {
+	padding: 0.15rem;
+	text-indent: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+	transition: color 0.1s ease-in-out;
 }
 
-.topic > a:hover {
-    color: white;
-    text-shadow: 0 0 5px white;
-    text-decoration: underline;
-    text-decoration-color: color(255, 0, 255, 1);
-    cursor: pointer;
+.topic>a:hover {
+	color: white;
+	text-shadow: 0 0 5px white;
+	text-decoration: underline;
+	text-decoration-color: color(255, 0, 255, 1);
+	cursor: pointer;
 }
 
 .instructions {
-    top: 0;
-    height: 100vh;
-    width: 80%;
-    float: right;
+	top: 0;
+	height: 100vh;
+	width: 80%;
+	float: right;
 }
 
 .content {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 5.5rem;
-    margin-bottom: 5.5rem;
-    height: inherit;
-    background-color: transparent;
-    font-family: Nunito;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 5.5rem;
+	margin-bottom: 5.5rem;
+	height: inherit;
+	background-color: transparent;
+	font-family: Nunito;
 }
 
 .title {
-    margin: 1rem;
-    color: #cddddd;
+	margin: 1rem;
+	color: #cddddd;
 }
 
 .titlefont {
-    font-weight: 400;
-    font-size: 50px;
-    transition: color 0.6s ease-in-out;
+	font-weight: 400;
+	font-size: 50px;
+	transition: color 0.6s ease-in-out;
 }
 
 .titledescription {
-    color: #a6a6a6;
-    font-weight: 100;
-    font-size: 20px;
-    transition: color 0.5s ease-in-out;
+	color: #a6a6a6;
+	font-weight: 100;
+	font-size: 20px;
+	transition: color 0.5s ease-in-out;
 }
 
 .title:hover {
-    .titlefont {
-        color: #b8f0ff;
-        text-shadow: 0 0 10px #b8f0ff;
-    }
-    .titledescription {
-        color: white;
-        text-shadow: 0 0 4px white;
-    }
+	.titlefont {
+		color: #b8f0ff;
+		text-shadow: 0 0 10px #b8f0ff;
+	}
+
+	.titledescription {
+		color: white;
+		text-shadow: 0 0 4px white;
+	}
 }
 
 .normal {
-    font-size: small;
+	font-size: small;
 }
 
 .section {
-    padding: 1rem;
-    border-radius: 1rem;
-    color: grey;
-    transition: color 0.5s ease-in-out;
-    transition: box-shadow 0.5s ease-in-out;
+	padding: 1rem;
+	border-radius: 1rem;
+	color: grey;
+	transition: color 0.5s ease-in-out;
+	transition: box-shadow 0.5s ease-in-out;
 }
 
 .section:hover {
-    color: white;
-    .horizontalbar {
-        border-top: 5px solid #72ABFF;
-    }
+	color: white;
+
+	.horizontalbar {
+		border-top: 5px solid #72ABFF;
+	}
 }
 
 .sectiontitlefont {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 .horizontalbar {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: inherit;
-    border-radius: 1rem;
-    justify-content: center;
-    display: flex;
-    border-top: 5px solid transparent;
-    box-shadow: inset 0 0 0 #72ABFF;
-    transition: border-top 0.5s ease-in-out;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: inherit;
+	border-radius: 1rem;
+	justify-content: center;
+	display: flex;
+	border-top: 5px solid transparent;
+	box-shadow: inset 0 0 0 #72ABFF;
+	transition: border-top 0.5s ease-in-out;
 }
 
 .horizontalbar:hover {
-    box-shadow: inset 0 0 0 5px #72ABFF;
+	box-shadow: inset 0 0 0 5px #72ABFF;
 }
 
 .sticky {
-    position: sticky;
-    top: 0;
-    z-index: 1;
+	position: sticky;
+	top: 0;
+	z-index: 1;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
-    display: block;
+	display: block;
 }
 
 @keyframes gradient {
-    0% {
-        background: radial-gradient(circle, rgba(0,255,255,.5), rgba(0,0,0,1));
-    }
-    35% {
-        background: radial-gradient(circle, rgba(0,0,0,1), rgba(0,255,255,.5));
-    }
-    70% {
-        background: radial-gradient(circle, rgba(0,255,255,.5), rgba(0,0,0,1));
-    }
+	0% {
+		background: radial-gradient(circle, rgba(0, 255, 255, .5), rgba(0, 0, 0, 1));
+	}
+
+	35% {
+		background: radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 255, 255, .5));
+	}
+
+	70% {
+		background: radial-gradient(circle, rgba(0, 255, 255, .5), rgba(0, 0, 0, 1));
+	}
 }
 
-.topic:active{
-     transform: scale(0.95);
-     transition: transform .1s;
+.topic:active {
+	transform: scale(0.95);
+	transition: transform .1s;
 }
 
 .manual {
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .title:before {
-    content: "★ ";
-    color: gold;
+	content: "★ ";
+	color: gold;
 }
 
 .title:after {
-    content: " ★";
-    color: gold;
+	content: " ★";
+	color: gold;
 }
 
 .instructions {
-    padding: 20px;
-    box-sizing: border-box;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 .content::after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .section::after {
-    content: "";
-    display: block;
-    height: 2px;
-    background: linear-gradient(to right, transparent, blue, transparent);
+	content: "";
+	display: block;
+	height: 2px;
+	background: linear-gradient(to right, transparent, blue, transparent);
 }
