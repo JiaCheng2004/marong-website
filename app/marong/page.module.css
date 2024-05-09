@@ -30,6 +30,7 @@
 	width: 100%;
 	background-color: transparent;
 	overflow: auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Added box shadow */
 }
 
 .topicdiv {
@@ -74,10 +75,10 @@
 
 .topic:hover {
 	color: #72ABFF;
+}
 
-	.horizontalbar {
-		border-top: 5px solid #72ABFF;
-	}
+.topic:hover .horizontalbar {
+	border-top: 5px solid #72ABFF;
 }
 
 .topic:hover>a {
@@ -106,6 +107,8 @@
 	height: 100vh;
 	width: 80%;
 	float: right;
+	padding: 20px; /* Added padding */
+	box-sizing: border-box; /* Added box-sizing */
 }
 
 .content {
@@ -121,6 +124,7 @@
 .title {
 	margin: 1rem;
 	color: #cddddd;
+	position: relative; /* Added relative positioning */
 }
 
 .titlefont {
@@ -136,16 +140,14 @@
 	transition: color 0.5s ease-in-out;
 }
 
-.title:hover {
-	.titlefont {
-		color: #b8f0ff;
-		text-shadow: 0 0 10px #b8f0ff;
-	}
+.title:hover .titlefont {
+	color: #b8f0ff;
+	text-shadow: 0 0 10px #b8f0ff;
+}
 
-	.titledescription {
-		color: white;
-		text-shadow: 0 0 4px white;
-	}
+.title:hover .titledescription {
+	color: white;
+	text-shadow: 0 0 4px white;
 }
 
 .normal {
@@ -162,10 +164,10 @@
 
 .section:hover {
 	color: white;
+}
 
-	.horizontalbar {
-		border-top: 5px solid #72ABFF;
-	}
+.section:hover .horizontalbar {
+	border-top: 5px solid #72ABFF;
 }
 
 .sectiontitlefont {
