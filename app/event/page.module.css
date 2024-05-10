@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 2em;
+    background-color: #f2f2f2; /* editable*/
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+    width: 80%; /* editable*/
+}
+
+.h1 {
+    font-size: 2.5em; /* editable*/
+    text-align: center;
+    color: #333; /* editable*/
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #fff; /* editable*/
+    border-radius: 4px; /* editable*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); /* editable*/
+}
+
+.h2 {
+    font-size: 2em; /* editable*/
+    color: #333; /* editable*/
+}
+
+.p {
+    font-size: 1.2em; /* editable*/
+    text-align: center;
+    color: #666; /* editable*/
+}
