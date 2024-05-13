@@ -64,9 +64,29 @@ export default function marong() {
                         </div>
                         <div className={styles.section}>
                             <div className={styles.horizontalbar}></div>
-                            <div className={styles.sectiontitlefont}>Slash commands</div>
-                                <div className={styles.sectiontitledescription}>Description for marong's slash commands</div>
-                                <a className={styles.normal}>Instruction normal text for marong's slash commands</a>
+                            <div className={styles.sectiontitlefont}>Automation/Automoderation</div>
+                            <div className={styles.sectiontitledescription}>Utilize marong's automation and automoderation features to streamline your server management and ensure a positive community experience.</div>
+                            <div className={styles.sectioncontent}>
+                                <p className={styles.paragraph}>Marong offers a range of automation and automoderation tools designed to simplify server administration and foster a welcoming environment for all users. Below are some key features and instructions on how to use them:</p>
+                                <div className={styles.subsection}>
+                                    <div className={styles.subsectiontitlefont}>Auto-Moderation</div>
+                                    <p className={styles.paragraph}>Marong's automoderation features empower server administrators to automatically manage undesirable behavior and enforce community guidelines. Here's how to set it up:</p>
+                                    <ul className={styles.list}>
+                                        <li className={styles.listitem}>1. **Automated Profanity Filter**: Configure marong to automatically delete messages containing profane language or inappropriate content. This helps maintain a respectful and family-friendly environment.</li>
+                                        <li className={styles.listitem}>2. **Spam Protection**: Prevent spamming by setting up automatic detection and deletion of repetitive messages or excessive mentions.</li>
+                                        <li className={styles.listitem}>3. **Anti-Bot Measures**: Protect your server from bot raids and spam bots by enabling marong's anti-bot measures, which can detect and block unauthorized bot activity.</li>
+                                    </ul>
+                                </div>
+                                <div className={styles.subsection}>
+                                    <div className={styles.subsectiontitlefont}>Automation</div>
+                                    <p className={styles.paragraph}>In addition to automoderation, marong offers automation tools to streamline routine tasks and enhance server management efficiency. Here's how to leverage them:</p>
+                                    <ul className={styles.list}>
+                                        <li className={styles.listitem}>1. **Scheduled Messages**: Schedule announcements, reminders, or event notifications to be sent automatically at specified times, ensuring timely communication with your community.</li>
+                                        <li className={styles.listitem}>2. **Role Management**: Automate the assignment and removal of roles based on user activity, server events, or predefined criteria, simplifying role management and ensuring accurate role assignments.</li>
+                                        <li className={styles.listitem}>3. **Channel Management**: Automatically create, archive, or delete channels based on server activity or predefined triggers, optimizing channel organization and reducing manual intervention.</li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div className={styles.horizontalbar}></div>
                         </div>
                     </div>
