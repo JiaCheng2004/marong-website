@@ -64,9 +64,14 @@ export default function marong() {
                         </div>
                         <div className={styles.section}>
                             <div className={styles.horizontalbar}></div>
-                            <div className={styles.sectiontitlefont}>Slash commands</div>
-                                <div className={styles.sectiontitledescription}>Description for marong's slash commands</div>
-                                <a className={styles.normal}>Instruction normal text for marong's slash commands</a>
+                            <div className={styles.sectiontitlefont}>Customizing Music Channels</div>
+                                <div className={styles.sectiontitledescription}>Learn how to customize music channels for a personalized audio experience</div>
+                                <a className={styles.normal}>To customize music channels for your server, follow these simple steps:</a>
+                                <a className={styles.normal}>1. **Setup Permissions**: Ensure that you have the necessary permissions to manage channels within your Discord server.</a>
+                                <a className={styles.normal}>2. **Choose a Channel**: Decide on which Discord channel you want to designate for music playback.</a>
+                                <a className={styles.normal}>3. **Invoke Marong**: Use the appropriate command to summon Marong to the chosen channel. For example, type "/marong summon" in the text chat.</a>
+                                <a className={styles.normal}>4. **Configuration**: Follow the prompts provided by Marong to configure the music channel according to your preferences. You can set options such as volume control, playback settings, and more.</a>
+                                <a className={styles.normal}>5. **Enjoy**: Once configured, sit back and enjoy your personalized music experience!</a>
                             <div className={styles.horizontalbar}></div>
                         </div>
                     </div>
