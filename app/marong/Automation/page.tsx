@@ -64,9 +64,18 @@ export default function marong() {
                         </div>
                         <div className={styles.section}>
                             <div className={styles.horizontalbar}></div>
-                            <div className={styles.sectiontitlefont}>Slash commands</div>
-                                <div className={styles.sectiontitledescription}>Description for marong's slash commands</div>
-                                <a className={styles.normal}>Instruction normal text for marong's slash commands</a>
+                            <div className={styles.sectiontitlefont}>Automation</div>
+                            <div className={styles.sectiontitledescription}>Automate tasks and enhance your server management with marong's automation features.</div>
+                            <a className={styles.normal}>1. Role Management:</a>
+                            <p className={styles.paragraph}>Efficiently manage roles within your server with marong's role management commands. Assign roles to users automatically based on specific criteria or commands triggered by certain events. Keep your server organized and ensure members have access to the appropriate channels and features.</p>
+                            <a className={styles.normal}>2. Channel Management:</a>
+                            <p className={styles.paragraph}>Streamline your channel management process with marong's automation capabilities. Automatically create, delete, or modify channels based on predefined conditions or triggers. Customize permissions, topics, and other channel settings to optimize your server structure and enhance user experience.</p>
+                            <a className={styles.normal}>3. Welcome Messages:</a>
+                            <p className={styles.paragraph}>Welcome new members to your server with personalized messages using marong's automation features. Set up automated welcome messages to greet new users as they join, providing them with important information, rules, and guidelines. Create a warm and welcoming environment for your community members.</p>
+                            <a className={styles.normal}>4. Moderation Tasks:</a>
+                            <p className={styles.paragraph}>Simplify moderation tasks and ensure a safe and friendly environment for your community with marong's automation tools. Automatically detect and act upon rule violations, spam, or inappropriate behavior. Implement automated warnings, kicks, or bans to enforce server rules and maintain order.</p>
+                            <a className={styles.normal}>5. Scheduled Events:</a>
+                            <p className={styles.paragraph}>Plan and organize events for your community with marong's scheduling capabilities. Set up automated reminders, notifications, and announcements for upcoming events, tournaments, or meetings. Keep your members informed and engaged, ensuring maximum participation and attendance.</p>
                             <div className={styles.horizontalbar}></div>
                         </div>
                     </div>
