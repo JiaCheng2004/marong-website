@@ -64,10 +64,34 @@ export default function marong() {
                         </div>
                         <div className={styles.section}>
                             <div className={styles.horizontalbar}></div>
-                            <div className={styles.sectiontitlefont}>Slash commands</div>
-                                <div className={styles.sectiontitledescription}>Description for marong's slash commands</div>
-                                <a className={styles.normal}>Instruction normal text for marong's slash commands</a>
+                            <div className={styles.sectiontitlefont}>Automation and Anti-Admin Abuse</div>
+                            <div className={styles.sectiontitledescription}>Utilize marong's automation features to streamline tasks and prevent admin abuse</div>
                             <div className={styles.horizontalbar}></div>
+                            <div className={styles.subsection}>
+                                <div className={styles.subsectiontitlefont}>Auto-Moderation</div>
+                                <div className={styles.subsectiontitledescription}>Keep your server safe and welcoming with marong's automated moderation tools.</div>
+                                <a className={styles.normal}>Instructions on setting up auto-moderation filters and triggers.</a>
+                            </div>
+                            <div className={styles.subsection}>
+                                <div className={styles.subsectiontitlefont}>Role Management</div>
+                                <div className={styles.subsectiontitledescription}>Effortlessly manage roles within your server with marong's role management capabilities.</div>
+                                <a className={styles.normal}>Learn how to automate role assignments and revoke permissions.</a>
+                            </div>
+                            <div className={styles.subsection}>
+                                <div className={styles.subsectiontitlefont}>Audit Logs</div>
+                                <div className={styles.subsectiontitledescription}>Stay informed about server changes and actions with marong's comprehensive audit logging system.</div>
+                                <a className={styles.normal}>Discover how to set up and review audit logs for effective server management.</a>
+                            </div>
+                            <div className={styles.subsection}>
+                                <div className={styles.subsectiontitlefont}>Anti-Spam Measures</div>
+                                <div className={styles.subsectiontitledescription}>Combat spam and protect your server's integrity with marong's anti-spam features.</div>
+                                <a className={styles.normal}>Instructions on configuring spam filters and prevention strategies.</a>
+                            </div>
+                            <div className={styles.subsection}>
+                                <div className={styles.subsectiontitlefont}>Command Restrictions</div>
+                                <div className={styles.subsectiontitledescription}>Prevent misuse of commands and maintain server order with marong's command restriction capabilities.</div>
+                                <a className={styles.normal}>Learn how to limit command usage based on roles or permissions.</a>
+                            </div>
                         </div>
                     </div>
                 </div>
