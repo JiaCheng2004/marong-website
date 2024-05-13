@@ -64,9 +64,31 @@ export default function marong() {
                         </div>
                         <div className={styles.section}>
                             <div className={styles.horizontalbar}></div>
-                            <div className={styles.sectiontitlefont}>Slash commands</div>
-                                <div className={styles.sectiontitledescription}>Description for marong's slash commands</div>
-                                <a className={styles.normal}>Instruction normal text for marong's slash commands</a>
+                            <div className={styles.sectiontitlefont}>Automation / Blacklist</div>
+                            <div className={styles.sectiontitledescription}>Utilize marong's automation and blacklist functionalities for seamless moderation.</div>
+                            <a className={styles.normal}>
+                                Marong offers powerful automation features to streamline moderation tasks within your server. With the blacklist functionality, you can easily manage unwanted behaviors and keep your server environment healthy and safe for all members.
+                            </a>
+                            <div className={styles.subsection}>
+                                <div className={styles.subtitlefont}>Slash Commands:</div>
+                                <div className={styles.subtitledescription}>Access marong's automation and blacklist commands with ease.</div>
+                                <a className={styles.normal}>
+                                    - `/automod [on/off]`: Toggle the automation features on or off.
+                                    - `/blacklist add [user] [reason]`: Add a user to the blacklist with a specified reason.
+                                    - `/blacklist remove [user]`: Remove a user from the blacklist.
+                                    - `/blacklist list`: View the list of blacklisted users.
+                                </a>
+                            </div>
+                            <div className={styles.subsection}>
+                                <div className={styles.subtitlefont}>Usage:</div>
+                                <div className={styles.subtitledescription}>Learn how to effectively utilize marong's automation and blacklist functionalities.</div>
+                                <a className={styles.normal}>
+                                    1. To activate automation features, simply use the `/automod on` command. Marong will now enforce specified rules automatically.
+                                    2. Add users to the blacklist by typing `/blacklist add [user] [reason]`. Provide a clear reason for better moderation.
+                                    3. Remove users from the blacklist using `/blacklist remove [user]`.
+                                    4. Check the current blacklist entries by executing `/blacklist list`.
+                                </a>
+                            </div>
                             <div className={styles.horizontalbar}></div>
                         </div>
                     </div>

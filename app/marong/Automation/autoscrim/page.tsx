@@ -64,9 +64,9 @@ export default function marong() {
                         </div>
                         <div className={styles.section}>
                             <div className={styles.horizontalbar}></div>
-                            <div className={styles.sectiontitlefont}>Slash commands</div>
-                                <div className={styles.sectiontitledescription}>Description for marong's slash commands</div>
-                                <a className={styles.normal}>Instruction normal text for marong's slash commands</a>
+                            <div className={styles.sectiontitlefont}>Automation / Autoscrim</div>
+                                <div className={styles.sectiontitledescription}>Automate your scrims effortlessly with marong's Autoscrim feature.</div>
+                                <a className={styles.normal}>Marong's Autoscrim feature simplifies the process of organizing scrims for your team. With just a few simple commands, you can set up scrim schedules, manage team rosters, and coordinate matches seamlessly.</a>
                             <div className={styles.horizontalbar}></div>
                         </div>
                     </div>
