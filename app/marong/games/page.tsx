@@ -64,9 +64,45 @@ export default function marong() {
                         </div>
                         <div className={styles.section}>
                             <div className={styles.horizontalbar}></div>
-                            <div className={styles.sectiontitlefont}>Slash commands</div>
-                                <div className={styles.sectiontitledescription}>Description for marong's slash commands</div>
-                                <a className={styles.normal}>Instruction normal text for marong's slash commands</a>
+                            <div className={styles.sectiontitlefont}>Games</div>
+                            <div className={styles.sectiontitledescription}>Explore marong's gaming features and commands</div>
+                            <a className={styles.normal}>Below is a list of marong's gaming-related commands:</a>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>1. !create-team</div>
+                                <div className={styles.commanddescription}>Create a new team for a specific game.</div>
+                            </div>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>2. !join-team</div>
+                                <div className={styles.commanddescription}>Join an existing team for a specific game.</div>
+                            </div>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>3. !leave-team</div>
+                                <div className={styles.commanddescription}>Leave a team for a specific game.</div>
+                            </div>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>4. !list-teams</div>
+                                <div className={styles.commanddescription}>List all available teams for a specific game.</div>
+                            </div>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>5. !match</div>
+                                <div className={styles.commanddescription}>Initiate a match between two teams for a specific game.</div>
+                            </div>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>6. !report-result</div>
+                                <div className={styles.commanddescription}>Report the result of a match for a specific game.</div>
+                            </div>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>7. !leaderboard</div>
+                                <div className={styles.commanddescription}>Display the leaderboard for a specific game.</div>
+                            </div>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>8. !game-info</div>
+                                <div className={styles.commanddescription}>Display information about a specific game.</div>
+                            </div>
+                            <div className={styles.command}>
+                                <div className={styles.commandname}>9. !help</div>
+                                <div className={styles.commanddescription}>Get help with using marong's gaming features.</div>
+                            </div>
                             <div className={styles.horizontalbar}></div>
                         </div>
                     </div>
